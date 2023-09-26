@@ -1,25 +1,16 @@
-# Welcome!
+#include <iostream>
+#include <mpi.h>
 
-This C# template lets you get started quickly with a simple one-page playground.
+int main(int argc, char** argv) {
+  // Initialisation
 
-```C# runnable
-// { autofold
-using System;
+  // Reading size and rank
 
-class Hello 
-{
-    static void Main() 
-    {
-// }
+  // Printing
+  std::cout << "Hello world, from process #" << ... << std::endl;
+  
+  // Finalisation
 
-Console.WriteLine("Hello World!");
 
-// { autofold
-    }
+  return 0;
 }
-// }
-```
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
